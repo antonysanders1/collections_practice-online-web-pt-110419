@@ -35,6 +35,10 @@ def kesha_maker(array)
   array.collect do |i|
     if i == "blake"
       array[0] = "bl$ke"
+    elsif i == "ashley"
+      array[1] = "as$ley"
+    elsif i == "scott"
+      array[2] = "bl$ke"
     end 
   end
 end
