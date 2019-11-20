@@ -33,6 +33,8 @@ end
 
 def kesha_maker(array)
   array.delete_at(0)
+  array.delete_at(0)
+  array.delete_at(0)
   array << "bl$ke, as$ley, sc$tt"
 end
 
