@@ -38,7 +38,7 @@ def kesha_maker(array)
     elsif i == "ashley"
       array[1] = "as$ley"
     elsif i == "scott"
-      array[2] = "bl$ke"
+      array[2] = "sc$tt"
     end 
   end
 end
