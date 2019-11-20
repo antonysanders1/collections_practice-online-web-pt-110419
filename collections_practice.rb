@@ -32,10 +32,10 @@ end
 
 
 def kesha_maker(array)
-  array.delete_at(0)
-  array.delete_at(0)
-  array.delete_at(0)
-  array << "bl$ke, as$ley, sc$tt"
+  array.collect do |i|
+    if i == "blake"
+      array[0] = "bl$ke"
+    end 
 end
 
 
